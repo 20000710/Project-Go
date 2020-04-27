@@ -4,19 +4,17 @@ import "fmt"
 
 func main()  {
 	for i := 1; i <= 100; i++ {
-		fmt.Println(i)
 
 		if i % 15 == 0 {
 			fmt.Println("FizzBuzz")	
-		}
-
-		if i % 3 == 0 {
-			fmt.Println("Fizz")
-		}
-
-		if i % 5 == 0 {
+		}else if i % 5 == 0 {
 			fmt.Println("Buzz")
+		}else if i % 3 == 0 {
+			fmt.Println("Fizz")
+		}else{
+			fmt.Println(i)
 		}
 		
+
 	}
 }
