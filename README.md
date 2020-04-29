@@ -1,1 +1,3 @@
-# Project Golang berisi 4 folder dari setiap soal
+# Project Golang
+
+ repository yang berisi kumpulan project go
